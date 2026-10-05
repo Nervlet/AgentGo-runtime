@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "adapter": 1,
+  "plugins": [
+    {
+      "id": "web-access",
+      "name": "Web Access",
+      "upstream": "https://github.com/nicobailon/pi-web-access",
+      "upstreamVersion": "0.36.0",
+      "files": {
+        "package.json": {
+          "sha256": "cf084781562b861db550ddcd82cae436711f7d6e09cdcf045a2db6a15de00d25",
+          "size": 153,
+          "url": "https://github.com/Nervlet/AgentGo-runtime/releases/download/plugins-8560a1b706e56c251707c25798e59010e7d8bdb8016d99bd82baefad7d9ff9e1/web-access-package.json"
+        },
+        "package-lock.json": {
+          "sha256": "bd737f876126180a39fd026c9139e06fb0ac470d2a2f03c9cb8b02ddb14fa305",
+          "size": 106076,
+          "url": "https://github.com/Nervlet/AgentGo-runtime/releases/download/plugins-8560a1b706e56c251707c25798e59010e7d8bdb8016d99bd82baefad7d9ff9e1/web-access-package-lock.json"
+        }
+      },
+      "version": "0.1.0",
+      "adapter": 1,
+      "minRuntime": "0.1.29",
+      "releaseNotes": "搜索、网页提取与结果分页；使用上游标准 MCP。"
+    },
+    {
+      "id": "browser-use",
+      "name": "Browser Use",
+      "upstream": "https://github.com/browser-use/browser-use",
+      "upstreamVersion": "0.13.10",
+      "files": {
+        "package.json": {
+          "sha256": "82c375f151aadaffdfd7c9d8a3b1e27e0511ed67ed4c79b9223a009d309f3b51",
+          "size": 105,
+          "url": "https://github.com/Nervlet/AgentGo-runtime/releases/download/plugins-8560a1b706e56c251707c25798e59010e7d8bdb8016d99bd82baefad7d9ff9e1/browser-use-package.json"
+        },
+        "pyproject.toml": {
+          "sha256": "65824856dba1dad2326c356cfa9e7a04dbe0036fa1a16a2ec4d526d4b28e5f2e",
+          "size": 135,
+          "url": "https://github.com/Nervlet/AgentGo-runtime/releases/download/plugins-8560a1b706e56c251707c25798e59010e7d8bdb8016d99bd82baefad7d9ff9e1/browser-use-pyproject.toml"
+        },
+        "uv.lock": {
+          "sha256": "6de8a17ee7af4b408627a7bbb3f6b91105eecbb6ffca6d6b6412d2cf1a93ad01",
+          "size": 332921,
+          "url": "https://github.com/Nervlet/AgentGo-runtime/releases/download/plugins-8560a1b706e56c251707c25798e59010e7d8bdb8016d99bd82baefad7d9ff9e1/browser-use-uv.lock"
+        },
+        "server.py": {
+          "sha256": "5c90c172aac8d245dbe3de01bb288b0117cd669d7b3d15bc3dbdeb2778524b5c",
+          "size": 2391,
+          "url": "https://github.com/Nervlet/AgentGo-runtime/releases/download/plugins-8560a1b706e56c251707c25798e59010e7d8bdb8016d99bd82baefad7d9ff9e1/browser-use-server.py"
+        }
+      },
+      "version": "0.1.0",
+      "adapter": 1,
+      "minRuntime": "0.1.29",
+      "releaseNotes": "本地无头浏览器、按会话保存 profile；使用上游标准 MCP。",
+      "platforms": {
+        "darwin-arm64": {
+          "uv": {
+            "version": "0.12.23",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.23/uv-aarch64-apple-darwin.tar.gz",
+            "sha256": "50487ae565ccd96e499056b4674d438f4c53170202617b4c759defe0c6a1b544"
+          },
+          "chrome": {
+            "version": "154.0.8037.92",
+            "url": "https://storage.googleapis.com/chrome-for-testing-public/154.0.8037.92/mac-arm64/chrome-mac-arm64.zip",
+            "sha256": "b62e904b6571c5ff5108ed7812cf93ac6d1c4027f10ae47ac34d8e229ed88001",
+            "executable": "chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing"
+          }
+        },
+        "linux-x64": {
+          "uv": {
+            "version": "0.12.23",
+            "url": "https://github.com/astral-sh/uv/releases/download/0.12.23/uv-x86_64-unknown-linux-gnu.tar.gz",
+            "sha256": "9167d72b3319674b6303c4cbe071854bba13ebdf3d76b1a7cbdc175471fb66d6"
+          },
+          "chrome": {
+            "version": "154.0.8037.92",
+            "url": "https://storage.googleapis.com/chrome-for-testing-public/154.0.8037.92/linux64/chrome-linux64.zip",
+            "sha256": "ff43322f335e436b2f4dcdfeeec5db032299e335a7e8c1c618b326e100ce8732",
+            "executable": "chrome-linux64/chrome"
+          }
+        }
+      }
+    }
+  ]
+}
