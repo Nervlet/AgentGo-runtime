@@ -11,12 +11,12 @@
         "package.json": {
           "sha256": "cf084781562b861db550ddcd82cae436711f7d6e09cdcf045a2db6a15de00d25",
           "size": 153,
-          "url": "https://github.com/Nervlet/AgentGo-runtime/releases/download/plugins-628373ce9a65ff9579cc680c07dcee9ac0cb98eec661b01bb6ce6a60118fe0c4/web-access-package.json"
+          "url": "https://github.com/Nervlet/AgentGo-runtime/releases/download/plugins-5ebbce1480ea230d13c3e74706cc9c6c7cf0f1a7575a1af9d68801df76b90e5d/web-access-package.json"
         },
         "package-lock.json": {
           "sha256": "bd737f876126180a39fd026c9139e06fb0ac470d2a2f03c9cb8b02ddb14fa305",
           "size": 106076,
-          "url": "https://github.com/Nervlet/AgentGo-runtime/releases/download/plugins-628373ce9a65ff9579cc680c07dcee9ac0cb98eec661b01bb6ce6a60118fe0c4/web-access-package-lock.json"
+          "url": "https://github.com/Nervlet/AgentGo-runtime/releases/download/plugins-5ebbce1480ea230d13c3e74706cc9c6c7cf0f1a7575a1af9d68801df76b90e5d/web-access-package-lock.json"
         }
       },
       "version": "0.1.0",
@@ -31,30 +31,30 @@
       "upstreamVersion": "0.13.10",
       "files": {
         "package.json": {
-          "sha256": "08d49e6ae4d46031cb41fe6f6906c9542132657b7c755369da789208f7d14bd3",
+          "sha256": "0a632634b2a2133513ba227223f4c6f6e3bcce7818e4b46099de2611be03bc33",
           "size": 105,
-          "url": "https://github.com/Nervlet/AgentGo-runtime/releases/download/plugins-628373ce9a65ff9579cc680c07dcee9ac0cb98eec661b01bb6ce6a60118fe0c4/browser-use-package.json"
+          "url": "https://github.com/Nervlet/AgentGo-runtime/releases/download/plugins-5ebbce1480ea230d13c3e74706cc9c6c7cf0f1a7575a1af9d68801df76b90e5d/browser-use-package.json"
         },
         "pyproject.toml": {
           "sha256": "fb9cac36db1ecc4f01551a70572a12eaf740b801316b08253f29bb6573a1001b",
           "size": 135,
-          "url": "https://github.com/Nervlet/AgentGo-runtime/releases/download/plugins-628373ce9a65ff9579cc680c07dcee9ac0cb98eec661b01bb6ce6a60118fe0c4/browser-use-pyproject.toml"
+          "url": "https://github.com/Nervlet/AgentGo-runtime/releases/download/plugins-5ebbce1480ea230d13c3e74706cc9c6c7cf0f1a7575a1af9d68801df76b90e5d/browser-use-pyproject.toml"
         },
         "uv.lock": {
           "sha256": "ec1f4ffc2ce0eb1fbccd4e24119021a4129419b23f1165338d71ee383c346c83",
           "size": 332921,
-          "url": "https://github.com/Nervlet/AgentGo-runtime/releases/download/plugins-628373ce9a65ff9579cc680c07dcee9ac0cb98eec661b01bb6ce6a60118fe0c4/browser-use-uv.lock"
+          "url": "https://github.com/Nervlet/AgentGo-runtime/releases/download/plugins-5ebbce1480ea230d13c3e74706cc9c6c7cf0f1a7575a1af9d68801df76b90e5d/browser-use-uv.lock"
         },
         "server.py": {
-          "sha256": "cf110523b5949f997893a330647c514ffbf0ece671e487a43f21e0cadd4d5b41",
-          "size": 2424,
-          "url": "https://github.com/Nervlet/AgentGo-runtime/releases/download/plugins-628373ce9a65ff9579cc680c07dcee9ac0cb98eec661b01bb6ce6a60118fe0c4/browser-use-server.py"
+          "sha256": "a7d5ae238328ff33f0bccc753f7407a4492909922ed2d9c50686bbc963f14b96",
+          "size": 5312,
+          "url": "https://github.com/Nervlet/AgentGo-runtime/releases/download/plugins-5ebbce1480ea230d13c3e74706cc9c6c7cf0f1a7575a1af9d68801df76b90e5d/browser-use-server.py"
         }
       },
-      "version": "0.1.1",
+      "version": "0.1.2",
       "adapter": 1,
       "minRuntime": "0.1.29",
-      "releaseNotes": "关闭自动下载浏览器扩展，保持固定依赖；本地无头浏览器与会话 profile 使用上游标准 MCP。",
+      "releaseNotes": "修复浏览器进程重启后登录状态丢失；使用会话独立的持久 profile，固定依赖并关闭扩展自动下载。",
       "platforms": {
         "darwin-arm64": {
           "uv": {
